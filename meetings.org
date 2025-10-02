@@ -1,0 +1,515 @@
+* 03/02/2025
+** topics
+*** 1. game mechanics
+**** stage one (high importance)
+1. up down left right (low effort)
+2. lake with sides we cannot cross (mid effort)
+3. pursuer (high effort)
+4. movement mechanics (high effort)
+**** stage two (high effort)
+4. aesthetics of game
+5. damage taken
+6. gates opening/ closing
+7. refueling 
+
+*** 2. should we start on game development?
+    yes
+    
+** actions
+**** implement first point of game mechanics this week
+**** drinks
+** next meeting
+Here we'll decide actions for this week
+* 04/02/2025
+** topics
+1. is done
+moving onto 2.
+
+We want the camera to follow
+** actions
+*** tasks
+**** research and prototyping
+- movement team: dan and leon
+- lake team: leah and casey
+- pursuer team: polly and adam
+*** adam doing kanban
+*** create git branches
+- each feature has it's own branch
+- each person has their own branch
+
+* 11/02/2025
+** topics
+*** catch up on progress
+**** research and prototyping
+- movement team: dan and leon
+  95%
+- lake team: leah and casey
+  80% done
+- pursuer team: polly and adam
+  95%
+  
+*** discussion on what to merge and how
+- merge movement with pursuer then after this merge lake
+- meetup to merge in 2 parts
+*** modularising the code (seperate files for seperate features)
+- look at polly's branch for cleaning up the repo
+** next steps
+this week:
+    1. one class for each feature
+    2. meetup with leah
+    3. pursuer and movement team merging to main
+    4. lake to main
+next week:
+    - other stuff
+      
+* 13/02/2025
+** topics
+*** merging process
+- going with daniels version for movement team
+- daniel changing variable names
+*** sprint for next week
+- Leah:
+  lakes development, locks
+- Casey:
+  camera following and levels
+- Polly:
+  damage
+- Adam:
+  path finding ability of pursuer
+- Dan:
+  fuel system
+- Leon:
+  game aesthetics
+*** readme and uml diagram
+* 19/02/2025
+Teams meeting, all going well
+- Daniel and Leah to refocus on collision mechanics
+  * 03/02/2025
+** topics
+*** 1. game mechanics
+**** stage one (high importance)
+1. up down left right (low effort)
+2. lake with sides we cannot cross (mid effort)
+3. pursuer (high effort)
+4. movement mechanics (high effort)
+**** stage two (high effort)
+4. aesthetics of game
+5. damage taken
+6. gates opening/ closing
+7. refueling 
+
+*** 2. should we start on game development?
+    yes
+    
+** actions
+**** implement first point of game mechanics this week
+**** drinks
+** next meeting
+Here we'll decide actions for this week
+* 04/02/2025
+** topics
+1. is done
+moving onto 2.
+
+We want the camera to follow
+** actions
+*** tasks
+**** research and prototyping
+- movement team: dan and leon
+- lake team: leah and casey
+- pursuer team: polly and adam
+*** adam doing kanban
+*** create git branches
+- each feature has it's own branch
+- each person has their own branch
+
+* 11/02/2025
+** topics
+*** catch up on progress
+**** research and prototyping
+- movement team: dan and leon
+  95%
+- lake team: leah and casey
+  80% done
+- pursuer team: polly and adam
+  95%
+  
+*** discussion on what to merge and how
+- merge movement with pursuer then after this merge lake
+- meetup to merge in 2 parts
+*** modularising the code (seperate files for seperate features)
+- look at polly's branch for cleaning up the repo
+** next steps
+this week:
+    1. one class for each feature
+    2. meetup with leah
+    3. pursuer and movement team merging to main
+    4. lake to main
+next week:
+    - other stuff
+      
+* 13/02/2025
+** topics
+*** merging process
+- going with daniels version for movement team
+- daniel changing variable names
+*** sprint for next week
+- Leah:
+  lakes development, locks
+- Casey:
+  camera following and levels
+- Polly:
+  damage
+- Adam:
+  path finding ability of pursuer
+- Dan:
+  fuel system
+- Leon:
+  game aesthetics
+*** readme and uml diagram
+* 19/02/2025
+Teams meeting, all going well
+- Daniel and Leah to refocus on collision mechanics
+* 21/02/2025
+- Leon's boats are looking great. Working on filling in lake artwork
+- Leah and Daniel have been working on making sure the boat behaves properly when hitting sides
+- Casey's level generation is going ok
+- Adam's path finding pursuer is coming along nicely
+** next steps
+- start merging all features and integrating to main
+* 25/02/2025
+** topics
+- catch up!
+** notes
+- continuing: Casey, Polly, Leah
+- Adam: pursuers with flat levels
+- Leah: continuing canal work
+***
+- Leon and Daniel: TBC
+* 06/03/2025
+** topics
+- catch up
+** notes
+- Polly has updated the repo with the quantitative evaluation. Leon too
+- Polly has been improving her features
+- Leah making progress on the forks. She'll next be working on some issues
+- perhaps we can look into p5.play or other JS physics libraries
+- leon working on main menu
+- perhaps we can think about integrating more features to help players with the usability of the game
+- adam trying to work out pursuer following the player with new maps
+
+* 25/03/2025
+Long hiatus due to Java assignment related concerns
+** topics
+Daniel has done a go at using p5.play to rewrite some of the code over the weekend.
+Leah is going through it
+*** p5.play refactor
+everyone is on board with this
+refactoring rather than restructuring
+** actions
+going to all try and grok p5 play and think about how we'll go about refactoring for the next meeting
+* 03/04/2025
+** topics
+catch up and planning for next period.
+** notes
+general catch up and talk about p5 and how we are going to use it in the game.
+Leah - canals
+Casey - map building
+Adam - pursuer
+Polly - start menu
+Daniel - camera movement
+
+* 08/04/2025
+Notes taken by Leon
+** Updates
+
+- Leah: Rebuilt canals in p5play lock spins, needs fix
+- Daniil: Added camera tracking for boat
+- Polly: Enhanced start/info screens, added controls. Advised moving player/canal/pursuer logic to GamePlay class
+- Adam: Integrated pursuer follows player "breadcrumbs" when out of sight
+- Leon: Sustainability analysis pending Ruzanna's input, added boat animation to p5play
+
+** Merging Process
+Polly merges to main
+Leah to Adam’s to Daniil to main
+
+** Next Steps
+- General: Multi-level support, Level 1 popup instructions, win/lose conditions, Polly to finalize
+- Daniil: Collaborate with Leah on canal rubbish generation
+- Polly: Implement pause feature
+- Leah: Map canal coordinates for water/rubbish, add canal forks
+- Adam: Design tutorial level/narrative integration
+- Leon: Animate water texture, finalize sustainability doc
+* 15/04/2025
+** notes
+Main branch is in 'docs_refactor'
+*** Daniil
+He has created a tutorial level and a second level. He is going to go ahead on creating more maps but wanted to bring up how we can approach this going forward
+
+**** discussion on map progression approaches
+1. easy/ medium/ hard difficulties conistent across every map
+2. difficulty per map
+
+Daniil prefers the first.
+Leon and Leah tend to prefer the first approach. Polly likes the idea of setting the difficulty once.
+
+Seems to be general consensus on approach one.
+
+*** Leah
+Connecting lakes together in a Network. She has been trying to generalise this to make map creation easier and to create forks in the map.
+
+The focus currenty is on forks. Locks will happen later. Cutting through the jungle with a machete.
+
+*** what Casey could work on
+- locks. Link up with leah to talk about this at some point.
+- sounds
+
+*** Leon
+animations for rubbish in the canals. Water in the canals at a later point.
+
+Randomly generated rubbish in the canal. Ripples around the garbage. Tried webgl but it seemed like too much of a headache. Filled the canals with a translucent colour. He is thinking about adding p5 'noise' but he's not sure.
+
+*** Polly
+Made the info screen, and the pause button. Refactored the game control logic entirely. Used the button class.
+
+She has suggested that we jazz up our report by going through previously highly marked projects
+
+*** Adam
+Working on pursuer, creates a route based off of the player path. Levels files, making a tutorial level at the moment.
+
+** planning for the report
+- Leah is happy to get shifted into working on the report once she has finished with her side.
+- Daniil is happy to get started on the report soon.
+- Polly would like to add to the report too
+
+*** dates
+- Starting now: report
+- WB 21/05/2025 planning video
+- WB 28/05/2025 making the video
+
+* 18/04/2025
+** Daniil
+Been working on the UML diagrams. He wants the other members of the group to let him know classes, methods and variables for their respective parts of the code.
+
+** Adam
+Has been working on the tutorial level
+** Casey
+Working on locks. Early stages
+** Leah
+- Thinking it would be good to be able to control the speed of the boat.
+- We need to develop some maps and start mapping out the game.
+- Developing the aesthetics
+- Locks functioning at a very basic level for prototyping purposes
+- Procedural generation is going to be tough as bugs are there.
+- Alot of what she's doing ironing out bugs
+- Canals now have ends
+
+We need to effectively lock in all the features now and write the game. Level creation and the basic features listed above.
+
+Casey agreed with this and believes more people in the group are needed to be working on these features than are currently. There seems to be general agreement although some also feel this is not necessary.
+
+** finishing notes (from Leah)
+Adam raised the prospect of changing back to an old approach to movement (where you steer rather than just use directional arrows). We didn't decide to do it or not, we figured that if Adam and Leah could get some maps out, then they could see how necessary it was.
+
+* 22/04/2025
+** Leah
+Prototyped and demo'd a new map with lock segments and raised some concerns.
+
+*** repair mechanic with locks
+Leah expressed a desired for more realistic Locks, and that under the current lock design the repair mechanic feels pointless. She talked about making the repair functionality more intuitive or happen under particular conditions with the new locks. Casey expressed the fact that his lock design can change and this should be easy.
+
+The group agreed that the repair mechanic should still be a global ability you can use anywhere at any time, but perhaps only under special condditions such as placement outside a lock.
+
+Casey disagreed on this.
+
+*** lock design
+Leah communicated that in this case she desires the following further development of the locks.
+
+A timer to make pairs of gates act as following:
+1. 1st gate opens
+2. time passes
+3. 2nd gate opens
+4. time passes
+5. second gate closes
+
+This could also have a 'lock bar' as Polly previously developed.
+
+Everybody agreed.
+
+Leah expressed desire to take locks over from Casey, but he said he would be happy to continue.
+
+*** game prettification
+Leah brought up that this is of high importance
+
+*** boat placement
+There was an issue in the map creation where the boats are not inside the canal but outside of the border. She liased with Daniil to try to diagnose this issue and this should be an easy fix.
+
+** Casey
+Has developed locks which act as a gates in game, but did not demo this.
+
+*** timeline for the project
+Casey brought up a discussion on reaching agreement about the importance of the game vs the report in the project. It was agreed that the report was of higher importance currently, especially with the deadline being sooner than the demo.
+
+Casey disagreed against this consensus. He believes this focus is myopic and the game is of equal importance overall.
+
+**** report focus switch
+- Casey can jump in on the game mechanics, class diagrams, flow diagrams.
+- Leah expressed a desire to write the introduction
+
+*** tips on sw-engineering exam
+Casey wanted to get everyones advice on exam preperation.
+
+- Daniil has been working through the lectures
+- Leah has been doing flashcards. Karslkrona manifesto, recommended readings
+- Adam too. Ruzanna mentioned these questions that'll definitely come up:
+1. sustainability
+2. SUSAF framework
+- Polly is going to memorise as much as possible as it'll be largely based on recall.
+
+** Adam
+Has developed a tutorial but did not demo this.
+
+** next steps
+- Leah talked about doing a 'report sprint' for Thursday, which was agreed upon.
+
+* 25/04/2025
+** agenda
+*** sprint recap
+**** Daniil
+Add more text coherence to the images.
+
+**** Casey
+Reviewed the state of the diagrams and found them to be high quality and accurate
+
+**** Leah
+Added introduction and wrote about canal implementation among other work also
+
+Leah suggested that we'll continue to work on the introduction as we go and it'll be somewhat of a work in progress.
+
+New name for game: narrowboat chase game
+
+***** demo
+Two main dimensions to the game
+1. dexterity
+2. strategy
+
+New lock design. Leahs previous lock design added with gate animation. Locks are now aware if players are inside of them.
+
+The biggest current design level problem is the pursuer getting stuck.
+
+Suggests getting a game designer in to provide feedback after we have a couple levels.
+
+We need prettification
+
+Suggested having an ideas board for levels
+
+Pursuer bugs
+
+**** Adam
+Reflection on our working process throughout the process, has been talking about scrum style meetings. Talked about pair programming, merges.
+Talked on tools.
+
+**** Leon
+Refined epics and user stories, also requirements. Managed to reduce word limit.
+
+Brought up use case diagrams and with the requirements section. Is asking for feedback.
+
+Wants to create an onion diagram for stakeholders.
+
+**** Polly
+(from teams chat)
+
+I was working on the evaluation section. The workshop slides said that we only needed to include 1 qualitative evaluation and 1 quantiative evaluation, so I have chosen the Think Aloud and the NASA TLX, because I think that those were the ones that yielded the most meaningful results. I have edited both of those and written about the changes that we made to the game in response to the evaluation feedback. I am way over the word limit but I'm not really sure what I could take out?
+
+Also, I used the NASA TLX raw data to make  a graph showing the NASA TLX scores by category, and I also included the raw data in an Appendix, on Daniel's suggestion.
+
+I haven't written anything about testing, partly because I'm not sure what there is to say and partly because I am already way over the word limit anyway
+
+*** game deadline
+This is sooner than we thought.
+*** next steps
+- Report done by the end of this week
+- level design
+- pursuer bugs
+
+**** planning for next 2 weeks. Role assigning
+Report done by the end of this week
+***** Game design:
+****** 1. prettification: Leon and Adam
+****** 2. level design: Leah and Casey and Polly
+***** coursework
+****** video:
+- Daniil will start work on this. Perhaps a script?
+- Editing will have to happen too
+
+**** filming for video on the 4th
+**** points for discussion
+- what the video will contain
+- new name for game
+- tester for the game
+- ideas board for level designers
+
+* 30/04/2025
+** agenda
+*** planning for video
+Daniil has been doing some work on the planning for the video.
+- skit
+- no skit, presentation
+
+Throw humour in throughout the video.
+
+Filming on the boat. Leah is going to help with the script
+
+
+*** planning for finishing the game
+Leah has largely finished on 3 and 4.
+Polly and I are both going to do a map.
+*** tweaks
+- Changing the movement of a boat
+- Maybe make the boat slightly slower. Might make the maps feel a bit bigger.
+- The stakes need to be higher in the game. When the pursuer catches up something should happen.
+- Perhaps a far larger health penalty for the pursuer catching up. Also pursuer crashing into you.
+- The repair functionality should potentially be less powerful.
+- Leah proposed a level description per level, and having the names of the maps be more descriptive.
+- adam might have a go at map info screens
+- Leon is going to do the conclusion.
+
+*** plan
+1. Daniil will have a look a movement and look over script
+2. Leah is going to take over the script
+3. Adam tackling pursuer crashing into you. Info screens too. Aesthetics too.
+4. Leon will do Appearance
+5. Polly and casey on a new level.
+6. Polly will change the damage taken on pursuer collision
+
+* 02/05/2025
+** topics
+*** leah
+- not enough space on one of the menu items
+- feels the movement is too slow
+*** recap
+- adam added pursuer ramming and info screen. Added sounds in
+- Polly adjusted health loss from pursuer contact
+- Daniel added the old movement back in as an option
+- Leah suggested a group coding session
+- Leon has been working on the finish line, but has been running into some issues with this. Noticed some differences in how the finish line behaves
+*** video planning
+1. filming: in person recording and screen recording. Will do this sunday
+2. gameplay: finish up on this for sunday as much as possible.
+3. editing: Leah is happy to do this
+
+Aim for 11am Sunday. Bring snacks/ drinks
+
+* 11/05/2025
+final meeting :(
+** agenda
+- final bits to do pre-submission
+- go through kanban
+- lock speed
+** to-do
+- play game button if easy
+- header formatting of readme
+- HR between sections in readme
+- map images issue from Casey's gitignore
+- [fig] on the images in the readme
+- play through of the game
