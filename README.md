@@ -3,6 +3,8 @@
 
 ![Playing maze map](/Images/maze-map.gif)
 
+# [Play The Game Here!](https://drpollylang.github.io/CanalChase/)
+
 ## Table of Contents
 
 ### Links
