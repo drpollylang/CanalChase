@@ -1,7 +1,4 @@
-# 2025-group-14
-2025 COMSM0166 group 14
-
-## Canal Chase
+# Canal Chase
 ![Canal Chase Banner](https://github.com/user-attachments/assets/3208036b-4ee5-4ca2-b676-5d8044b1703f)
 
 ![Playing maze map](/Images/maze-map.gif)
